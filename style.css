@@ -1,0 +1,92 @@
+.clinic{
+
+text-align: center;
+background-image: url(https://i.pinimg.com/564x/d7/7b/fd/d77bfdbac1e7fc39531ab34a27b218f4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.container{
+ 
+    overflow: auto;
+
+}
+
+.clinic-item{
+
+    float: left;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    position: relative;
+    border: 3px solid #37dae6 ;
+    margin-bottom: 50px;
+}
+
+.clinic-list{
+
+    margin: 10px 5px;
+}
+
+.clinic-link{
+
+    list-style: none;
+    color: rgb(38, 126, 226);
+    text-decoration: none;
+
+}
+.clinic-item ::after{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0.5;
+    background-color: #999;
+
+}
+
+.clinic-item :hover::after{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.clinic-item-img{
+    
+    margin-left: 20px;
+}
+.clinic-list{
+
+    margin: 0px 15px;
+}
+
+.clinic-list li{
+
+    font-size: 18px;
+    margin: 0px 5px;
+    display: inline-block;
+}
+.clinic-list li  i{
+    color: #141106;
+}
+.clinic-info{
+
+    padding: 15px;
+}
+.clinic-title{
+    
+    margin: 30px 0px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.clinic-para{
+
+    color: rgb(10, 10, 10);
+    line-height: 1.5;
+}
